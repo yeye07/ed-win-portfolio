@@ -58,7 +58,7 @@ div {
 
 /*navigation section*/
 .top-navigation {
-    background-color: #fff;
+    background-color:darkgray;
     position: fixed;
     width: 100%;
     border-bottom: 1px solid #DDD;
@@ -72,7 +72,6 @@ div {
 }
 .top-navigation .links {
     float: right;
-    color: #838994;
     font-size: 1.04rem;
     margin-top: 1.7rem;
 }
@@ -80,18 +79,42 @@ div {
     display: inline-block;
     margin-left: 1.563rem;
 }
-.top-navigation .links li.active {
-    color: #4c5058;
-    font-weight: 500;
+/*.top-navigation .links li.active {*/
+    /*font-weight: 500;*/
 }
 .top-navigation .links li:hover {
     cursor: pointer;
-    color: #333333;
+
 }
+
+a.nav-links{
+    text-decoration: none;
+ font-family: 'Playfair Display', serif;
+    color:#242526;
+    font-weight:900;
+    font-style: italic;
+    font-size:1em;
+
+}
+
+/*a.nav-links:link {*/
+    /*color:white;*/
+    /*font-weight:500;*/
+}
+a.nav-links:visited {
+    color:blue;
+}
+a.nav-links:hover {
+    font-size:150%;
+}
+
+
+
+
 
 /*Introduction section*/
 .introduction {
-    background-image: url('http://yeye07.github.io/karma-clone/images/first-background-copy.jpg');
+    background-image: url('https://ununsplash.imgix.net/uploads/14127101912749510b8ed/82743738?q=75&fm=jpg&s=2150993787c74416103059d6ebac09f5');
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -249,5 +272,16 @@ button:hover {
     background-color: #d9400e;
     border-color: #cf3d0e;
     cursor: pointer;
+}
+
+.ed-win{
+     font-family: 'Playfair Display', serif;
+    color:black;
+    font-weight:900;
+    font-style: italic;
+    font-size:3em;
+    text-align: center;
+    background-color: white;
+
 }
 
