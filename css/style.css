@@ -58,10 +58,10 @@ div {
 
 /*navigation section*/
 .top-navigation {
-    background-color:darkgray;
+    background-color:#282828;
     position: fixed;
     width: 100%;
-    border-bottom: 1px solid #DDD;
+    border-bottom: 1px solid #282828;
     z-index: 9999;
 }
 .top-navigation > .content {
@@ -71,7 +71,7 @@ div {
     height: 4.375rem;
 }
 .top-navigation .links {
-    float: right;
+    float:right;
     font-size: 1.04rem;
     margin-top: 1.7rem;
 }
@@ -90,7 +90,7 @@ div {
 a.nav-links{
     text-decoration: none;
  font-family: 'Playfair Display', serif;
-    color:#242526;
+    color:#DADADA;
     font-weight:900;
     font-style: italic;
     font-size:1em;
@@ -121,22 +121,22 @@ a.nav-links:hover {
     height: 45.938rem;
     overflow: auto;
 }
-.introduction h1,.introduction h3 {
-    color: white;
+.introduction h1,.introduction h2 {
+    color: #282828;
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
 }
 .introduction h1 {
     margin-top: 17.5rem;
     font-size: 3.125rem;
 }
-.introduction h3 {
+.introduction h2 {
     margin-top: 1.25rem;
-    font-size: 1.563rem;
+    font-size: 1.650rem;
 }
 /*the buttom*/
 .introduction .buttons {
-    color: white;
+    color: #F1F1F1;
     text-align: center;
     margin-top: 1.563rem;
 }
@@ -148,6 +148,27 @@ a.nav-links:hover {
     font-size: 1.125rem;
     line-height: 1.2;
 }*/
+
+/*Quotes stylying*/
+
+.quotes{
+  background: #DADADA;
+  padding: 6em 0;
+  text-align: center; }
+  
+  .quotes h3 {
+    border-bottom: 6px solid #282828;
+    color: #282828;
+    display: inline-block;
+    font-size:2em;
+    font-family: 'Gravitas One', cursive;
+    letter-spacing: 0.1rem;
+    text-transform: none; }
+
+    /*background-color: #5A5A5A;*/
+
+
+/*Quotes stylying*/
 
 /*second section the cases*/
 
@@ -259,17 +280,17 @@ a.nav-links:hover {
  */
 button {
     width: 9.688rem;
-    background-color: #f15a29;
-    border-color: #f15a29;
+    background-color: #282828;
+    border-color: #282828;
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
     padding: 1rem 1.5rem;
-    color: white;
+    color: #F1F1F1;
     font-size: 1.125rem;
 }
 button:hover {
-    background-color: #d9400e;
+    background-color: #8D8D8D;
     border-color: #cf3d0e;
     cursor: pointer;
 }
