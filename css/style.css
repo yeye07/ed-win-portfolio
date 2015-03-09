@@ -67,9 +67,9 @@ div {
 .top-navigation > .content {
     height: 4.375rem;
 }
-.top-navigation .logo {
-    height: 4.375rem;
-}
+
+
+
 .top-navigation .links {
     float:right;
     font-size: 1.04rem;
@@ -309,10 +309,13 @@ text-align:center;
 }
 .social .copy {
     font-size: 0.9rem;
-    font-weight: 300;
     color: #838994;
 }
-
+.social h5{
+    color:#838994;
+    font-style: italic;
+    font-weight:bold;
+}
 /**
  * Responsive Design
  */
