@@ -72,7 +72,7 @@ div {
 .top-navigation h1 {
     float:left;
     position: relative;
-    top:1.5rem;
+    top:1.2rem;
     font-size: 2em;
     font-family: 'Playfair Display', serif;
     color:#DADADA;
@@ -92,7 +92,7 @@ div {
 .top-navigation h1:hover {
     width: auto;
     height: auto;
-    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
     transform: rotate(360deg);
 }
 
@@ -241,10 +241,11 @@ text-align:center;
 
     .portfolio h3 {
             font-size: 1.08rem;
-          text-align: center;
+          text-align: none;
            font-weight: 400;
       font-family: 'Playfair Display', serif;
      font-style: italic;
+     padding-top:.2rem;
     }
     .portfolio p{
           font-family: sans-serif;
@@ -315,10 +316,10 @@ text-align:center;
 }
 .social .icons > li {
     border-radius: 1.25rem;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.8rem;
+    height: 2.8rem;
     display: inline-block;
-    margin: 1.25rem 5px;
+    margin: 1.28rem 8px;
     border: 1px solid #eaebec;
     padding: 0.625rem 0;
     text-align: center;
@@ -339,10 +340,11 @@ text-align:center;
     font-size: 0.9rem;
     color: #838994;
 }
-.social h5{
+.social h5 {
     color:#838994;
     font-style: italic;
-    font-weight:bold;
+    font-weight:900;
+    font-size:1.5rem;
 }
 /**
  * Responsive Design
