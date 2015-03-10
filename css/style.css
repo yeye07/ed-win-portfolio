@@ -109,7 +109,8 @@ div {
 }
 /*.top-navigation .links li.active {*/
     /*font-weight: 500;*/
-}
+
+
 .top-navigation .links li:hover {
     cursor: pointer;
 
@@ -128,7 +129,7 @@ a.nav-links{
 /*a.nav-links:link {*/
     /*color:white;*/
     /*font-weight:500;*/
-}
+
 a.nav-links:visited {
     color:blue;
 }
@@ -202,8 +203,6 @@ a.nav-links:hover {
     overflow: hidden;
     
 }
-
-
 
 
 img{
@@ -363,7 +362,7 @@ text-align:center;
 }
 @media (min-width: 75rem) {
     .content {
-        width: 60%;
+        width: 60rem;
     }
 }
 
