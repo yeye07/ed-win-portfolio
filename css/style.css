@@ -69,6 +69,17 @@ div {
 }
 
 
+.top-navigation h1 {
+    float:left;
+    position: relative;
+    top:1.7rem;
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+    color:#DADADA;
+    font-weight:900;
+    font-style: italic;
+    
+}
 
 .top-navigation .links {
     float:right;
