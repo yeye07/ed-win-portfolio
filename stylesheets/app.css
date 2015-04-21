@@ -9157,3 +9157,56 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
+/* line 44, ../scss/app.scss */
+aside {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5rem;
+}
+/* line 172, ../bower_components/foundation/scss/foundation/components/_global.scss */
+aside:before, aside:after {
+  content: " ";
+  display: table;
+}
+/* line 173, ../bower_components/foundation/scss/foundation/components/_global.scss */
+aside:after {
+  clear: both;
+}
+
+/* line 48, ../scss/app.scss */
+aside {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+/* line 52, ../scss/app.scss */
+.introduction {
+  background-image: url("https://ununsplash.imgix.net/uploads/14127101912749510b8ed/82743738?q=75&fm=jpg&s=2150993787c74416103059d6ebac09f5");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45.938rem;
+  overflow: auto;
+  padding-top: 20%;
+}
+
+/* line 62, ../scss/app.scss */
+.content {
+  text-align: center;
+  border: 1px red solid;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* line 69, ../scss/app.scss */
+aside {
+  border: 1px red solid;
+}
