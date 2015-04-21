@@ -9158,7 +9158,7 @@ th.hide-for-touch {
   }
 }
 /* line 44, ../scss/app.scss */
-aside {
+aside, portfolio {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -9167,16 +9167,16 @@ aside {
   max-width: 62.5rem;
 }
 /* line 172, ../bower_components/foundation/scss/foundation/components/_global.scss */
-aside:before, aside:after {
+aside:before, aside:after, portfolio:before, portfolio:after {
   content: " ";
   display: table;
 }
 /* line 173, ../bower_components/foundation/scss/foundation/components/_global.scss */
-aside:after {
+aside:after, portfolio:after {
   clear: both;
 }
 
-/* line 48, ../scss/app.scss */
+/* line 49, ../scss/app.scss */
 aside {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
@@ -9187,7 +9187,7 @@ aside {
   float: none;
 }
 
-/* line 52, ../scss/app.scss */
+/* line 53, ../scss/app.scss */
 .introduction {
   background-image: url("https://ununsplash.imgix.net/uploads/14127101912749510b8ed/82743738?q=75&fm=jpg&s=2150993787c74416103059d6ebac09f5");
   background-position: center bottom;
@@ -9198,7 +9198,7 @@ aside {
   padding-top: 20%;
 }
 
-/* line 62, ../scss/app.scss */
+/* line 63, ../scss/app.scss */
 .content {
   text-align: center;
   border: 1px red solid;
@@ -9206,7 +9206,21 @@ aside {
   margin: 0 auto;
 }
 
-/* line 69, ../scss/app.scss */
+/* line 70, ../scss/app.scss */
 aside {
   border: 1px red solid;
+}
+
+/* line 74, ../scss/app.scss */
+.quotes {
+  background: #DADADA;
+  height: 400px;
+  padding: 10% 0;
+}
+
+/* line 80, ../scss/app.scss */
+.portfolio {
+  background-color: #F1F1F1;
+  overflow: hidden;
+  padding: 10% 0;
 }

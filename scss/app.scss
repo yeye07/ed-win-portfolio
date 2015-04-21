@@ -41,9 +41,10 @@
 
 $dark:#282828; //this is the darker color// 
 
-aside {
+aside, portfolio {
 	@include grid-row ();
 }
+
 
 aside {
 	@include grid-column ($columns:12,$center:true);
@@ -69,3 +70,16 @@ border:1px red solid;
  aside{
   border:1px red solid;
   }
+
+ .quotes{
+   background: #DADADA;
+  height: 400px;
+  padding: 10% 0;
+ }
+
+ .portfolio {
+  background-color: #F1F1F1;
+    overflow: hidden;
+    padding:10% 0;
+     }
+
