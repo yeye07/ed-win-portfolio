@@ -9187,6 +9187,46 @@ aside aside {
 }
 
 /* line 51, ../scss/app.scss */
+.work {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5rem;
+}
+/* line 172, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.work:before, .work:after {
+  content: " ";
+  display: table;
+}
+/* line 173, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.work:after {
+  clear: both;
+}
+/* line 53, ../scss/app.scss */
+.work .first-case {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 33.33333%;
+  float: left;
+}
+/* line 56, ../scss/app.scss */
+.work .second-case {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 33.33333%;
+  float: left;
+}
+/* line 59, ../scss/app.scss */
+.work .third-case {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 33.33333%;
+  float: left;
+}
+
+/* line 64, ../scss/app.scss */
 .content {
   text-align: center;
   border: 1px red solid;
@@ -9194,7 +9234,7 @@ aside aside {
   margin: 0 auto;
 }
 
-/* line 59, ../scss/app.scss */
+/* line 72, ../scss/app.scss */
 .introduction {
   background-image: url(../images/Main.jpeg);
   background-position: center center;
@@ -9205,20 +9245,20 @@ aside aside {
   padding-top: 12%;
 }
 
-/* line 69, ../scss/app.scss */
+/* line 82, ../scss/app.scss */
 .introduction h1, h2 {
   color: #282828;
   font-weight: 500;
 }
 
-/* line 76, ../scss/app.scss */
+/* line 89, ../scss/app.scss */
 .quotes {
   background: #DADADA;
   height: 350px;
   padding-top: 7%;
 }
 
-/* line 84, ../scss/app.scss */
+/* line 97, ../scss/app.scss */
 .quotes h3 {
   border-bottom: 6px solid #282828;
   color: #282828;
@@ -9228,7 +9268,7 @@ aside aside {
   text-transform: none;
 }
 
-/* line 93, ../scss/app.scss */
+/* line 106, ../scss/app.scss */
 .portfolio {
   background-color: #F1F1F1;
   overflow: hidden;
