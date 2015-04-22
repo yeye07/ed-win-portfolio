@@ -9158,7 +9158,7 @@ th.hide-for-touch {
   }
 }
 /* line 44, ../scss/app.scss */
-aside, portfolio {
+aside {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -9167,17 +9167,16 @@ aside, portfolio {
   max-width: 62.5rem;
 }
 /* line 172, ../bower_components/foundation/scss/foundation/components/_global.scss */
-aside:before, aside:after, portfolio:before, portfolio:after {
+aside:before, aside:after {
   content: " ";
   display: table;
 }
 /* line 173, ../bower_components/foundation/scss/foundation/components/_global.scss */
-aside:after, portfolio:after {
+aside:after {
   clear: both;
 }
-
-/* line 49, ../scss/app.scss */
-aside {
+/* line 46, ../scss/app.scss */
+aside aside {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
   width: 100%;
@@ -9187,18 +9186,18 @@ aside {
   float: none;
 }
 
-/* line 53, ../scss/app.scss */
+/* line 52, ../scss/app.scss */
 .introduction {
-  background-image: url("https://ununsplash.imgix.net/uploads/14127101912749510b8ed/82743738?q=75&fm=jpg&s=2150993787c74416103059d6ebac09f5");
-  background-position: center bottom;
+  background-image: url(../images/Main.jpeg);
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 45.938rem;
+  height: 500px;
   overflow: auto;
-  padding-top: 20%;
+  padding-top: 10%;
 }
 
-/* line 63, ../scss/app.scss */
+/* line 62, ../scss/app.scss */
 .content {
   text-align: center;
   border: 1px red solid;
@@ -9206,19 +9205,19 @@ aside {
   margin: 0 auto;
 }
 
-/* line 70, ../scss/app.scss */
+/* line 69, ../scss/app.scss */
 aside {
   border: 1px red solid;
 }
 
-/* line 74, ../scss/app.scss */
+/* line 73, ../scss/app.scss */
 .quotes {
   background: #DADADA;
   height: 400px;
   padding: 10% 0;
 }
 
-/* line 80, ../scss/app.scss */
+/* line 79, ../scss/app.scss */
 .portfolio {
   background-color: #F1F1F1;
   overflow: hidden;

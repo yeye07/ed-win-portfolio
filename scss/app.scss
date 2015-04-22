@@ -41,24 +41,23 @@
 
 $dark:#282828; //this is the darker color// 
 
-aside, portfolio {
+aside {
 	@include grid-row ();
+  aside {
+    @include grid-column ($columns:12,$center:true);
+  }
 }
 
-
-aside {
-	@include grid-column ($columns:12,$center:true);
-	}
 
 .introduction {
-    background-image: url('https://ununsplash.imgix.net/uploads/14127101912749510b8ed/82743738?q=75&fm=jpg&s=2150993787c74416103059d6ebac09f5');
-    background-position: center bottom;
+    background-image: url(../images/Main.jpeg);
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45.938rem;
-    overflow: auto;
-    padding-top:20%;
-}
+    height:500px;
+    overflow:auto;
+    padding-top:10%;
+    }
 
 .content{
 text-align:center;
