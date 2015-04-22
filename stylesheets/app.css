@@ -9230,7 +9230,7 @@ aside aside {
 .content {
   text-align: center;
   border: 1px red solid;
-  padding: 0 20px;
+  padding: 0 0px;
   margin: 0 auto;
 }
 
@@ -9240,21 +9240,22 @@ aside aside {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
   overflow: auto;
   padding-top: 12%;
+  padding-bottom: 12%;
 }
 
-/* line 82, ../scss/app.scss */
+/* line 83, ../scss/app.scss */
 .introduction h1, h2 {
   color: #282828;
   font-weight: 500;
 }
 
-/* line 89, ../scss/app.scss */
+/* line 90, ../scss/app.scss */
 .quotes {
   background: #DADADA;
-  padding-top: 7%;
+  padding-top: 8%;
+  padding-Bottom: 8%;
 }
 
 /* line 96, ../scss/app.scss */

@@ -64,7 +64,7 @@ aside {
 .content{
 text-align:center;
 border:1px red solid;
-   padding: 0 20px;
+   padding: 0 0px;
     margin: 0 auto;
 
     }
@@ -74,9 +74,10 @@ border:1px red solid;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height:500px;
     overflow:auto;
     padding-top:12%;
+        padding-bottom:12%;
+
     }
 
 .introduction h1, h2 {
@@ -88,9 +89,8 @@ border:1px red solid;
 
  .quotes {
    background: #DADADA;
-  padding-top: 7%;
-
-
+  padding-top: 8%;
+    padding-Bottom: 8%;
  }
 
  .quotes h3 {
