@@ -9254,11 +9254,10 @@ aside aside {
 /* line 89, ../scss/app.scss */
 .quotes {
   background: #DADADA;
-  height: 350px;
   padding-top: 7%;
 }
 
-/* line 97, ../scss/app.scss */
+/* line 96, ../scss/app.scss */
 .quotes h3 {
   border-bottom: 6px solid #282828;
   color: #282828;
@@ -9268,7 +9267,7 @@ aside aside {
   text-transform: none;
 }
 
-/* line 106, ../scss/app.scss */
+/* line 105, ../scss/app.scss */
 .portfolio {
   background-color: #F1F1F1;
   overflow: hidden;
