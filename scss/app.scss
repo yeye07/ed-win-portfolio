@@ -48,6 +48,13 @@ aside {
   }
 }
 
+.content{
+text-align:center;
+border:1px red solid;
+   padding: 0 20px;
+    margin: 0 auto;
+
+    }
 
 .introduction {
     background-image: url(../images/Main.jpeg);
@@ -64,23 +71,23 @@ aside {
   font-weight: 500;
 } 
 
-.content{
-text-align:center;
-border:1px red solid;
-   padding: 0 20px;
-    margin: 0 auto;
 
-    }
 
- aside{
-  border:1px red solid;
-  }
-
- .quotes{
+ .quotes {
    background: #DADADA;
-  height: 400px;
-  padding: 10% 0;
+  height: 350px;
+  padding-top: 7%;
 
+
+ }
+
+ .quotes h3 {
+border-bottom: 6px solid #282828;
+    color: #282828;
+    font-size:32px;
+    font-family: 'Gravitas One', cursive;
+    letter-spacing: 0.1rem;
+    text-transform: none;
  }
 
  .portfolio {

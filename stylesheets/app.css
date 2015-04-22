@@ -9186,7 +9186,15 @@ aside aside {
   float: none;
 }
 
-/* line 52, ../scss/app.scss */
+/* line 51, ../scss/app.scss */
+.content {
+  text-align: center;
+  border: 1px red solid;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* line 59, ../scss/app.scss */
 .introduction {
   background-image: url(../images/Main.jpeg);
   background-position: center center;
@@ -9197,33 +9205,30 @@ aside aside {
   padding-top: 12%;
 }
 
-/* line 62, ../scss/app.scss */
+/* line 69, ../scss/app.scss */
 .introduction h1, h2 {
   color: #282828;
   font-weight: 500;
 }
 
-/* line 67, ../scss/app.scss */
-.content {
-  text-align: center;
-  border: 1px red solid;
-  padding: 0 20px;
-  margin: 0 auto;
-}
-
-/* line 75, ../scss/app.scss */
-aside {
-  border: 1px red solid;
-}
-
-/* line 79, ../scss/app.scss */
+/* line 76, ../scss/app.scss */
 .quotes {
   background: #DADADA;
-  height: 400px;
-  padding: 10% 0;
+  height: 350px;
+  padding-top: 7%;
 }
 
-/* line 86, ../scss/app.scss */
+/* line 84, ../scss/app.scss */
+.quotes h3 {
+  border-bottom: 6px solid #282828;
+  color: #282828;
+  font-size: 32px;
+  font-family: 'Gravitas One', cursive;
+  letter-spacing: 0.1rem;
+  text-transform: none;
+}
+
+/* line 93, ../scss/app.scss */
 .portfolio {
   background-color: #F1F1F1;
   overflow: hidden;
