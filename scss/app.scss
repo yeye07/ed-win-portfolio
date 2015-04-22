@@ -56,14 +56,20 @@ aside {
     background-size: cover;
     height:500px;
     overflow:auto;
-    padding-top:10%;
+    padding-top:12%;
     }
+
+.introduction h1, h2 {
+  color: #282828;
+  font-weight: 500;
+} 
 
 .content{
 text-align:center;
 border:1px red solid;
    padding: 0 20px;
     margin: 0 auto;
+
     }
 
  aside{
@@ -74,6 +80,7 @@ border:1px red solid;
    background: #DADADA;
   height: 400px;
   padding: 10% 0;
+
  }
 
  .portfolio {
