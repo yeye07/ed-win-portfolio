@@ -9280,3 +9280,82 @@ aside aside {
   font-family: 'Playfair Display', serif;
   font-style: italic;
 }
+
+/* line 115, ../scss/app.scss */
+.portfolio h3 {
+  color: #282828;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+/* line 123, ../scss/app.scss */
+.portfolio p {
+  font-family: sans-serif;
+}
+
+/* line 128, ../scss/app.scss */
+.social {
+  background-color: #282828;
+  overflow: auto;
+  padding-bottom: 8%;
+  padding-top: 2%;
+  text-align: center;
+}
+
+/* line 135, ../scss/app.scss */
+.social hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, transparent, rgba(218, 218, 218, 0.9), transparent);
+  background-image: -moz-linear-gradient(left, transparent, rgba(218, 218, 218, 0.9), transparent);
+  background-image: -ms-linear-gradient(left, transparent, rgba(218, 218, 218, 0.9), transparent);
+  background-image: -o-linear-gradient(left, transparent, rgba(218, 218, 218, 0.9), transparent);
+  opacity: 0.8;
+}
+
+/* line 144, ../scss/app.scss */
+.social .icons > li {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 1.25rem 5px;
+  border: 1px solid #eaebec;
+  padding: 0.625rem 0;
+}
+
+/* line 153, ../scss/app.scss */
+.social .icons > li:hover {
+  cursor: pointer;
+}
+
+/* line 156, ../scss/app.scss */
+.social .twitter {
+  color: #00aced;
+}
+
+/* line 159, ../scss/app.scss */
+.social .facebook {
+  color: #3b5998;
+}
+
+/* line 162, ../scss/app.scss */
+.social .instagram {
+  color: #517fa4;
+}
+
+/* line 165, ../scss/app.scss */
+.social .copy {
+  font-size: 0.9rem;
+  color: #838994;
+}
+
+/* line 169, ../scss/app.scss */
+.social h5 {
+  color: #838994;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
