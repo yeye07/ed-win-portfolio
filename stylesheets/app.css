@@ -9229,12 +9229,9 @@ aside aside {
 /* line 64, ../scss/app.scss */
 .content {
   text-align: center;
-  border: 1px red solid;
-  padding: 0 0px;
-  margin: 0 auto;
 }
 
-/* line 72, ../scss/app.scss */
+/* line 68, ../scss/app.scss */
 .introduction {
   background-image: url(../images/Main.jpeg);
   background-position: center center;
@@ -9245,20 +9242,20 @@ aside aside {
   padding-bottom: 12%;
 }
 
-/* line 83, ../scss/app.scss */
+/* line 79, ../scss/app.scss */
 .introduction h1, h2 {
   color: #282828;
   font-weight: 500;
 }
 
-/* line 90, ../scss/app.scss */
+/* line 86, ../scss/app.scss */
 .quotes {
   background: #DADADA;
   padding-top: 8%;
   padding-Bottom: 8%;
 }
 
-/* line 96, ../scss/app.scss */
+/* line 92, ../scss/app.scss */
 .quotes h3 {
   border-bottom: 6px solid #282828;
   color: #282828;
@@ -9268,14 +9265,14 @@ aside aside {
   text-transform: none;
 }
 
-/* line 105, ../scss/app.scss */
+/* line 101, ../scss/app.scss */
 .portfolio {
   background-color: #F1F1F1;
   padding-top: 2%;
-  padding-bottom: 8%;
+  padding-bottom: 5%;
 }
 
-/* line 111, ../scss/app.scss */
+/* line 107, ../scss/app.scss */
 .portfolio h2 {
   font-size: 40px;
   font-weight: 500;
